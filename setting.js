@@ -8,4 +8,5 @@ settings = {
 Object.freeze(settings)
 settings.theme = "light"
 console.log(settings);
+console.log(Object.isFrozen(settings));
 
